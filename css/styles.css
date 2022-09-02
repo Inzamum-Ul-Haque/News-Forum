@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
 * {
   font-family: "Michroma", sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
 }
 
 body {
@@ -64,3 +66,14 @@ img {
   color: white;
 }
 /* buttons end */
+
+/* main start */
+main * {
+  font-family: "Roboto", sans-serif;
+}
+
+.author-img {
+  height: 38px;
+  width: 38px;
+}
+/* main end */

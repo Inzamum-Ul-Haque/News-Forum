@@ -11,6 +11,13 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>All Time News Reporter</title>
   </head>
   <body>
@@ -72,7 +79,58 @@
         </div>
       </section>
     </header>
-    <main></main>
+    <main class="container">
+      <section class="my-5">
+        <div id="news-container">
+          <!-- select from here -->
+          <div class="card mb-3">
+            <div class="row g-0 p-3 bg-light">
+              <div class="col-md-4">
+                <img src="..." class="img-fluid rounded-start" alt="..." />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Here will be the title of the news</h5>
+                  <p class="card-text">
+                    here will be the description of the news
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="d-flex">
+                      <img
+                        class="author-img img-fluid rounded-circle profile-img ms-0 me-2"
+                        src="images/me.jpg"
+                        alt=""
+                      />
+                      <div class="d-flex flex-column justify-content-center">
+                        <span><b>Inzamum</b></span>
+                        <span class="text-muted">Jan 10, 2020</span>
+                      </div>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-eye me-1"></i>
+                      <span>1.5M</span>
+                    </div>
+                    <div>
+                      <i class="fa-regular fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- to here -->
+        </div>
+      </section>
+    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
