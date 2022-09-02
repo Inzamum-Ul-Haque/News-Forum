@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
+
+* {
+  font-family: "Michroma", sans-serif;
+}
+
+header section {
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.news-header {
+  color: #5d5fef;
+}
+
+.navbar-right a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-right a,
+img {
+  margin-left: 15px;
+}
+
+.profile-img {
+  width: 38px;
+  height: 38px;
+}
