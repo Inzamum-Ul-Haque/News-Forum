@@ -1,10 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
 
-/* heading start */
 * {
   font-family: "Michroma", sans-serif;
 }
 
+body {
+  background-color: #f6f6f6;
+}
+
+/* heading start */
 header .head-nav {
   border-bottom: 1px solid #cdcdcd;
 }
@@ -44,3 +48,19 @@ img {
   color: #5d5fef;
 }
 /* categories end */
+
+/* buttons start */
+.buttons button {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+  color: #5d5fef;
+  border: 1px solid #5d5fef;
+}
+
+.buttons button:hover {
+  background-color: #5d5fef;
+  color: white;
+}
+/* buttons end */
