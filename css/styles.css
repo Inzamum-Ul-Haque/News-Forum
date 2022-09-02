@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
 
+/* heading start */
 * {
   font-family: "Michroma", sans-serif;
 }
 
-header section {
+header .head-nav {
   border-bottom: 1px solid #cdcdcd;
 }
 
@@ -26,3 +27,20 @@ img {
   width: 38px;
   height: 38px;
 }
+/* heading end */
+
+/* categories start */
+.news-categories ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.news-categories ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.news-categories ul li:hover {
+  color: #5d5fef;
+}
+/* categories end */
