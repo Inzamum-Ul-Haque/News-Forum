@@ -86,9 +86,7 @@
         </div>
       </section>
       <section>
-        <!-- Button trigger modal -->
-
-        <!-- Modal -->
+        <!-- Modal start -->
         <div
           class="modal fade"
           id="blogModal"
@@ -249,6 +247,61 @@
             </div>
           </div>
         </div>
+        <!-- Modal end -->
+      </section>
+      <section>
+        <!-- modal news details start -->
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="newsDetailsModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modal-label-title"></h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <img
+                  id="news-details-img"
+                  alt=""
+                  class="img-fluid w-100 ms-0"
+                />
+                <div class="my-3">
+                  <span class="text-muted">Written by - </span>
+                  <b id="news-details-author" class="fst-italic"></b>
+                  <br />
+                  <span class="fst-italic text-muted">Published on: </span>
+                  <span
+                    id="news-details-date"
+                    class="fst-italic text-muted"
+                  ></span>
+                  <p class="mt-3" id="news-details-desc"></p>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- modal news details end -->
       </section>
     </main>
     <script
