@@ -76,4 +76,8 @@ main * {
   height: 38px;
   width: 38px;
 }
+
+.btn-news-details {
+  border: 0;
+}
 /* main end */

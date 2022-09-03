@@ -42,17 +42,7 @@
       </section>
       <section class="container my-4">
         <div class="news-categories">
-          <ul class="d-flex justify-content-between">
-            <li>Home</li>
-            <li>Breaking news</li>
-            <li>Regular news</li>
-            <li>International news</li>
-            <li>Sports</li>
-            <li>Entertainment</li>
-            <li>Culture</li>
-            <li>Arts</li>
-            <li>All news</li>
-          </ul>
+          <ul id="categories-list" class="d-flex justify-content-between"></ul>
         </div>
       </section>
       <section class="items-count container">
@@ -90,8 +80,10 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Here will be the title of the news</h5>
-                  <p class="card-text">
+                  <h5 class="card-title fs-4">
+                    Here will be the title of the news
+                  </h5>
+                  <p class="card-text text-muted">
                     here will be the description of the news
                   </p>
                   <div
@@ -120,7 +112,9 @@
                       <i class="fa-regular fa-star"></i>
                     </div>
                     <div>
-                      <i class="fa-solid fa-arrow-right"></i>
+                      <button class="btn-news-details bg-light">
+                        <i class="fa-solid fa-arrow-right"></i>
+                      </button>
                     </div>
                   </div>
                 </div>
