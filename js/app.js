@@ -126,6 +126,12 @@ const loadNewsInCards = (id, event) => {
 };
 
 const displayNewsInCards = (allNews, text) => {
+  if (allNews.length === 0) {
+    const foot = document.getElementById("foot");
+    foot.classList.add("free-top");
+  } else {
+    foot.classList.remove("free-top");
+  }
   //setting the items counter
   const itemsCounter = document.getElementById("items-counter");
   itemsCounter.innerText = `${allNews.length} items found in ${text} category`;
