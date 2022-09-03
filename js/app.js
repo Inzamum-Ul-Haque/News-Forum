@@ -114,3 +114,4 @@ const displayNewsInCards = (allNews, text) => {
 };
 
 loadCategories();
+// loadNewsInCards("01");
