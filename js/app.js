@@ -23,6 +23,7 @@ const displayDefaultNews = (allNews) => {
 
   const newsContainer = document.getElementById("news-container");
   newsContainer.innerHTML = ``;
+  allNews.sort((a, b) => parseFloat(a.total_view) - parseFloat(b.total_view));
   allNews.forEach((singleNews) => {
     const cardDiv = document.createElement("div");
     cardDiv.classList.add("card", "mb-3");
@@ -66,7 +67,7 @@ const displayDefaultNews = (allNews) => {
             <div>
               <i class="fa-solid fa-eye me-1"></i>
               <span>${
-                singleNews.total_view ? singleNews.total_view : "No data found"
+                singleNews.total_view ? singleNews.total_view : "0"
               }</span>
             </div>
             <div>
@@ -132,6 +133,7 @@ const displayNewsInCards = (allNews, text) => {
   //setting the cards section
   const newsContainer = document.getElementById("news-container");
   newsContainer.innerHTML = ``;
+  allNews.sort((a, b) => parseFloat(a.total_view) - parseFloat(b.total_view));
   allNews.forEach((singleNews) => {
     const cardDiv = document.createElement("div");
     cardDiv.classList.add("card", "mb-3");
@@ -175,7 +177,7 @@ const displayNewsInCards = (allNews, text) => {
             <div>
               <i class="fa-solid fa-eye me-1"></i>
               <span>${
-                singleNews.total_view ? singleNews.total_view : "No data found"
+                singleNews.total_view ? singleNews.total_view : "0"
               }</span>
             </div>
             <div>
