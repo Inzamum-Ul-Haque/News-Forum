@@ -31,7 +31,7 @@ const displayDefaultNews = (allNews) => {
       <div class="col-md-4">
         <img src="${
           singleNews?.image_url
-        }" class="img-fluid rounded-start" alt="" />
+        }" class="h-100 img-fluid rounded-start ms-0" alt="" />
       </div>
       <div class="col-md-8">
         <div class="card-body ms-4">
@@ -140,7 +140,7 @@ const displayNewsInCards = (allNews, text) => {
       <div class="col-md-4">
         <img src="${
           singleNews?.image_url
-        }" class="img-fluid rounded-start" alt="" />
+        }" class="h-100 img-fluid rounded-start ms-0" alt="" />
       </div>
       <div class="col-md-8">
         <div class="card-body ms-4">

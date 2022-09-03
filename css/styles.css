@@ -80,4 +80,8 @@ main * {
 .btn-news-details {
   border: 0;
 }
+
+.fa-arrow-right {
+  color: #5d5fef;
+}
 /* main end */
