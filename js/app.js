@@ -17,6 +17,7 @@ const loadDefaultNews = (id) => {
     .catch((error) => console.log(error));
 };
 
+// made some adjustments to the code
 const displayDefaultNews = (allNews) => {
   const itemsCounter = document.getElementById("items-counter");
   itemsCounter.innerText = `${allNews.length} items found in All News category`;
